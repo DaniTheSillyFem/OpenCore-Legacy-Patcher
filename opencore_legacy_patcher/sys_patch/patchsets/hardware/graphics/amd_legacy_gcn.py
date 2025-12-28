@@ -6,7 +6,6 @@ from ..base import BaseHardware, HardwareVariant, HardwareVariantGraphicsSubclas
 
 from ...base import PatchType
 
-from ...shared_patches.renderbox       import RenderBox
 from ...shared_patches.monterey_gva    import MontereyGVA
 from ...shared_patches.monterey_opencl import MontereyOpenCL
 from ...shared_patches.amd_opencl      import AMDOpenCL
