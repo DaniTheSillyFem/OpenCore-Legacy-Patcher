@@ -55,7 +55,7 @@ module.exports = {
 
     themeConfig: {
         lastUpdated: true,
-        repo: 'https://github.com/dortania/OpenCore-Legacy-Patcher/',
+        repo: 'https://github.com/DaniTheSillyFem/OpenCore-Legacy-Patcher/',
         docsDir: 'docs',
         docsBranch: 'main',
         editLinks: true,
@@ -90,7 +90,8 @@ module.exports = {
             collapsable: false,
             sidebarDepth: 1,
             children: [
-                'SEQUOIA-DROP',
+				'TAHOE-DROP',
+        'SEQUOIA-DROP',
 		'SONOMA-DROP',
 		'VENTURA-DROP',
 		'MONTEREY-DROP',
