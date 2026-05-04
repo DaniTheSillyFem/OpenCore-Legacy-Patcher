@@ -1,6 +1,6 @@
 # macOS Tahoe
 
-![](./images/macos-sequoia.png)
+![](./images/macos-tahoe.png)
 
 Another year, another release.
 
