@@ -1,7 +1,6 @@
 name: CI - Build Site
 on:
   push:
-    branches: gh-pages
   workflow_dispatch:
   pull_request:
 
