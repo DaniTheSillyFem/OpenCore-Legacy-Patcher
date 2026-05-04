@@ -36,7 +36,7 @@ jobs:
       #ORG_MAC_NOTARIZATION_PASSWORD: ${{ secrets.ORG_MAC_NOTARIZATION_PASSWORD }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       # - name: Import Application Signing Certificate
       #   uses: dhinakg/import-codesign-certs@master
@@ -83,19 +83,19 @@ jobs:
           --prepare-package
 
       - name: Upload AutoPkg Package to Artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: AutoPkg-Assets.pkg
           path: ./dist/AutoPkg-Assets.pkg
 
       - name: Upload Installation Package to Artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: OpenCore-Patcher.pkg
           path: ./dist/OpenCore-Patcher.pkg
 
       - name: Upload Uninstaller Package to Artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: OpenCore-Patcher-Uninstaller.pkg
           path: ./dist/OpenCore-Patcher-Uninstaller.pkg
