@@ -108,7 +108,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./dist/AutoPkg-Assets.pkg
-          tag: ${{ github.ref }}
+          tag: "3.0.0"
           file_glob: true
 
       - name: Upload Installation Package to Release
@@ -116,7 +116,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./dist/OpenCore-Patcher.pkg
-          tag: ${{ github.ref }}
+          tag: "3.0.0"
           file_glob: true
 
       - name: Upload Uninstaller Package to Release
@@ -124,5 +124,5 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./dist/OpenCore-Patcher-Uninstaller.pkg
-          tag: ${{ github.ref }}
+          tag: "3.0.0"
           file_glob: true
