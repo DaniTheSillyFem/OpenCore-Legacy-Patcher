@@ -101,7 +101,7 @@ jobs:
           path: ./dist/OpenCore-Patcher-Uninstaller.pkg
 
       - name: Upload AutoPkg Package to Release
-        uses: svenstaro/upload-release-action@e74ff71f7d8a4c4745b560a485cc5fdb9b5b999d
+        uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./dist/AutoPkg-Assets.pkg
@@ -109,7 +109,7 @@ jobs:
           file_glob: true
 
       - name: Upload Installation Package to Release
-        uses: svenstaro/upload-release-action@e74ff71f7d8a4c4745b560a485cc5fdb9b5b999d
+        uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./dist/OpenCore-Patcher.pkg
@@ -117,7 +117,7 @@ jobs:
           file_glob: true
 
       - name: Upload Uninstaller Package to Release
-        uses: svenstaro/upload-release-action@e74ff71f7d8a4c4745b560a485cc5fdb9b5b999d
+        uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./dist/OpenCore-Patcher-Uninstaller.pkg
