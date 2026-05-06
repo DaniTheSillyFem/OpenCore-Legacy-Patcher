@@ -3,7 +3,7 @@ const {
 } = require('../package')
 
 module.exports = {
-    title: 'OpenCore Legacy Patcher',
+    title: 'OpenCore Custom Patcher',
     head: [
         ['meta', {
             name: 'theme-color',
@@ -22,7 +22,7 @@ module.exports = {
             href: "/styles/website.css"
         },]
     ],
-    base: '/OpenCore-Legacy-Patcher/',
+    base: '/OpenCore-Custom-Patcher/',
 
     watch: {
         $page(newPage, oldPage) {
