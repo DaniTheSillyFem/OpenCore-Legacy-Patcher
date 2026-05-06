@@ -15,7 +15,7 @@ class Constants:
         # Patcher Versioning
         self.patcher_version:                 str = "3.0.0"  # OpenCore-Custom-Patcher
         self.patcher_support_pkg_version:     str = "1.9.6"  # PatcherSupportPkg
-        self.copyright_date:                  str = "Copyright © 2020-2026 Dortania"
+        self.copyright_date:                  str = "Copyright © 2020-2026 Dortania + DaniTheSillyFem 2025-2026"
         self.patcher_name:                    str = "OpenCore Custom Patcher"
 
         # URLs
