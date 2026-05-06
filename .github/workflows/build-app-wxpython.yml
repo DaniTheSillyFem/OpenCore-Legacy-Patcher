@@ -110,6 +110,7 @@ jobs:
           file: ./dist/AutoPkg-Assets.pkg
           tag: "3.0.0"
           file_glob: true
+          overwrite: true
 
       - name: Upload Installation Package to Release
         uses: svenstaro/upload-release-action@v2
@@ -118,6 +119,7 @@ jobs:
           file: ./dist/OpenCore-Patcher.pkg
           tag: "3.0.0"
           file_glob: true
+          overwrite: true
 
       - name: Upload Uninstaller Package to Release
         uses: svenstaro/upload-release-action@v2
@@ -126,3 +128,4 @@ jobs:
           file: ./dist/OpenCore-Patcher-Uninstaller.pkg
           tag: "3.0.0"
           file_glob: true
+          overwrite: true
