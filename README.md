@@ -9,7 +9,7 @@ Our project's main goal is to breathe new life into Macs no longer supported by 
 
 ----------
 
-![GitHub all releases](https://img.shields.io/github/downloads/DaniTheSillyFem/OpenCore-Custom-Patcher/total?color=white&style=plastic) ![GitHub top language](https://img.shields.io/github/languages/top/dortania/OpenCore-Legacy-Patcher?color=4B8BBE&style=plastic) ![Discord](https://img.shields.io/discord/417165963327176704?color=7289da&label=discord&style=plastic)
+![GitHub all releases](https://img.shields.io/github/downloads/DaniTheSillyFem/OpenCore-Custom-Patcher/total?color=white&style=plastic) ![GitHub top language](https://img.shields.io/github/languages/top/DaniTheSillyFem/OpenCore-Custom-Patcher?color=4B8BBE&style=plastic)
 
 ----------
 
@@ -40,15 +40,15 @@ Note 2: Currently, OpenCore Custom Patcher officially supports patching to run m
 
 To start using the project, please see our in-depth guide:
 
-* [OpenCore Legacy Patcher Guide](https://danithesillyfem.github.io/OpenCore-Custom-Patcher/)
+* [OpenCore Custom Patcher Guide](https://danithesillyfem.github.io/OpenCore-Custom-Patcher/)
 
 ## Support
 
 This project is offered on an AS-IS basis, we do not guarantee support for any issues that may arise. However, there is a community server with other passionate users and developers that can aid you:
 
-* [OpenCore Patcher Paradise Discord Server](https://discord.gg/rqdPgH8xSN)
+* ~~OpenCore Patcher Paradise Discord Server~~ (don't use, this shi is unofficial)
   * Keep in mind that the Discord server is maintained by the community, so we ask everyone to be respectful.
-  * Please review our docs on [how to debug with OpenCore](https://dortania.github.io/OpenCore-Legacy-Patcher/DEBUG.html) to gather important information to help others with troubleshooting.
+  * Please review our docs on [how to debug with OpenCore](https://danithesillyfem.github.io/OpenCore-Custom-Patcher/DEBUG.html) to gather important information to help others with troubleshooting.
 
 ## Running from source
 
