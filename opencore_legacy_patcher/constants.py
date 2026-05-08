@@ -1,3 +1,4 @@
+
 """
 constants.py: Defines versioning, file paths and other settings for the patcher
 """
@@ -14,7 +15,7 @@ class Constants:
     def __init__(self) -> None:
         # Patcher Versioning
         self.patcher_version:                 str = "3.0.0"  # OpenCore-Custom-Patcher
-        self.patcher_support_pkg_version:     str = "2.0.0"  # PatcherSupportPkg
+        self.patcher_support_pkg_version:     str = "2.1.0"  # PatcherSupportPkg
         self.copyright_date:                  str = "Copyright © 2020-2026 Dortania + DaniTheSillyFem 2025-2026"
         self.patcher_name:                    str = "OpenCore Custom Patcher"
 
