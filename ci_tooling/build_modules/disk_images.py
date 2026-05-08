@@ -117,7 +117,7 @@ class GenerateDiskImages:
             subprocess_wrapper.run_and_verify(
                 [
                     "/usr/bin/curl", "-LO",
-                    f"https://github.com/laobamac/PatcherSupportPkg/releases/download/2.0.0/Universal-Binaries.dmg"
+                    f"https://github.com/DaniTheSillyFem/PatcherSupportPkg/releases/download/pre-release-eb6390e65553059b95dbd4f08a99f8e9201e14ca/Universal-Binaries.dmg"
                 ],
                 stdout=subprocess.PIPE, stderr=subprocess.PIPE
             )
