@@ -9,6 +9,10 @@ Our project's main goal is to breathe new life into Macs no longer supported by 
 
 ----------
 
+# DON'T USE YET!!! GPU PATCHES ARENT AVAILABLE FOR TAHOE
+
+----------
+
 ![GitHub all releases](https://img.shields.io/github/downloads/DaniTheSillyFem/OpenCore-Custom-Patcher/total?color=white&style=plastic) ![GitHub top language](https://img.shields.io/github/languages/top/DaniTheSillyFem/OpenCore-Custom-Patcher?color=4B8BBE&style=plastic)
 
 ----------
