@@ -118,7 +118,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./dist/OpenCore-Patcher.pkg
-          tag: "3.0.0"
+          tag: "3.1.0"
           file_glob: true
           overwrite: true
 
@@ -127,6 +127,6 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./dist/OpenCore-Patcher-Uninstaller.pkg
-          tag: "3.0.0"
+          tag: "3.1.0"
           file_glob: true
           overwrite: true
