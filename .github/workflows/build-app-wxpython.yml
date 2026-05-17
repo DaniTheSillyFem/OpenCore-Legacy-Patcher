@@ -5,6 +5,7 @@ on:
     paths-ignore:
       - 'docs/**'
       - 'README.md'
+      - '.github/workflows/*.yml'
   workflow_dispatch:
   release:
     types: [published]
@@ -86,23 +87,23 @@ jobs:
           --run-as-individual-steps
           --prepare-package
 
-      - name: Upload AutoPkg Package to Artifacts
-        uses: actions/upload-artifact@v7
-        with:
-          name: AutoPkg-Assets.pkg
-          path: ./dist/AutoPkg-Assets.pkg
+      # - name: Upload AutoPkg Package to Artifacts
+      #   uses: actions/upload-artifact@v7
+      #   with:
+      #     name: AutoPkg-Assets.pkg
+      #     path: ./dist/AutoPkg-Assets.pkg
 
-      - name: Upload Installation Package to Artifacts
-        uses: actions/upload-artifact@v7
-        with:
-          name: OpenCore-Patcher.pkg
-          path: ./dist/OpenCore-Patcher.pkg
+      # - name: Upload Installation Package to Artifacts
+      #   uses: actions/upload-artifact@v7
+      #   with:
+      #     name: OpenCore-Patcher.pkg
+      #     path: ./dist/OpenCore-Patcher.pkg
 
-      - name: Upload Uninstaller Package to Artifacts
-        uses: actions/upload-artifact@v7
-        with:
-          name: OpenCore-Patcher-Uninstaller.pkg
-          path: ./dist/OpenCore-Patcher-Uninstaller.pkg
+      # - name: Upload Uninstaller Package to Artifacts
+      #   uses: actions/upload-artifact@v7
+      #   with:
+      #     name: OpenCore-Patcher-Uninstaller.pkg
+      #     path: ./dist/OpenCore-Patcher-Uninstaller.pkg
 
       - name: Upload AutoPkg Package to Release
         uses: svenstaro/upload-release-action@v2
